@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		0F3F55162783771E00AFD437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F55152783771E00AFD437 /* AppDelegate.swift */; };
 		0F3F55182783771E00AFD437 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F55172783771E00AFD437 /* SceneDelegate.swift */; };
-		0F3F551A2783771E00AFD437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F55192783771E00AFD437 /* ViewController.swift */; };
+		0F3F551A2783771E00AFD437 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F55192783771E00AFD437 /* ConversionViewController.swift */; };
 		0F3F551D2783771E00AFD437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F551B2783771E00AFD437 /* Main.storyboard */; };
 		0F3F551F2783771F00AFD437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F551E2783771F00AFD437 /* Assets.xcassets */; };
 		0F3F55222783771F00AFD437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F55202783771F00AFD437 /* LaunchScreen.storyboard */; };
 		0F3F552D2783771F00AFD437 /* myWorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F552C2783771F00AFD437 /* myWorldTrotterTests.swift */; };
 		0F3F55372783771F00AFD437 /* myWorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F55362783771F00AFD437 /* myWorldTrotterUITests.swift */; };
 		0F3F55392783771F00AFD437 /* myWorldTrotterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F55382783771F00AFD437 /* myWorldTrotterUITestsLaunchTests.swift */; };
+		0F3F55462785033200AFD437 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F55452785033200AFD437 /* MapViewController.swift */; };
+		0F3F5548278504AB00AFD437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F5547278504AB00AFD437 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		0F3F55122783771E00AFD437 /* myWorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myWorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3F55152783771E00AFD437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F3F55172783771E00AFD437 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F3F55192783771E00AFD437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F3F55192783771E00AFD437 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		0F3F551C2783771E00AFD437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F3F551E2783771F00AFD437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F3F55212783771F00AFD437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		0F3F55322783771F00AFD437 /* myWorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myWorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3F55362783771F00AFD437 /* myWorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWorldTrotterUITests.swift; sourceTree = "<group>"; };
 		0F3F55382783771F00AFD437 /* myWorldTrotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWorldTrotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F3F55452785033200AFD437 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0F3F5547278504AB00AFD437 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 		0F3F55142783771E00AFD437 /* myWorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				0F3F5547278504AB00AFD437 /* ViewController.swift */,
 				0F3F55152783771E00AFD437 /* AppDelegate.swift */,
 				0F3F55172783771E00AFD437 /* SceneDelegate.swift */,
-				0F3F55192783771E00AFD437 /* ViewController.swift */,
+				0F3F55192783771E00AFD437 /* ConversionViewController.swift */,
 				0F3F551B2783771E00AFD437 /* Main.storyboard */,
+				0F3F55452785033200AFD437 /* MapViewController.swift */,
 				0F3F551E2783771F00AFD437 /* Assets.xcassets */,
 				0F3F55202783771F00AFD437 /* LaunchScreen.storyboard */,
 				0F3F55232783771F00AFD437 /* Info.plist */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3F551A2783771E00AFD437 /* ViewController.swift in Sources */,
+				0F3F5548278504AB00AFD437 /* ViewController.swift in Sources */,
+				0F3F551A2783771E00AFD437 /* ConversionViewController.swift in Sources */,
 				0F3F55162783771E00AFD437 /* AppDelegate.swift in Sources */,
 				0F3F55182783771E00AFD437 /* SceneDelegate.swift in Sources */,
+				0F3F55462785033200AFD437 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +450,7 @@
 				DEVELOPMENT_TEAM = H5J4TZP9VY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = myWorldTrotter/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This App uses access to stalk you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +479,7 @@
 				DEVELOPMENT_TEAM = H5J4TZP9VY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = myWorldTrotter/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This App uses access to stalk you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
